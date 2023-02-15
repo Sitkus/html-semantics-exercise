@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <title>HTML Semantics</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <nav class="header__navigation">
+        <a href="#home">Home</a>
+        <a href="#potatoe">Potatoe</a>
+        <a href="#pizza">Pizza</a>
+        <a href="#hamburger">Hamburger</a>
+      </nav>
+    </div>
+
+    <div class="page-content">
+      <div class="main-content">
+        <div class="hero">
+          <div class="main-title">Welcome to HTML semantics exercise!</div>
+          <p class="paragraph">
+            This is a website made for quick exercise on HTML semantics topic.
+          </p>
+        </div>
+
+        <div class="form">
+          <div class="secondary-title">Form to contact us</div>
+          <p class="paragraph">Fill in all fields to reach us</p>
+
+          <div>
+            <div class="paragraph paragraph--label">
+              <label>Full name:</label>
+              <input type="text" />
+            </div>
+
+            <div class="paragraph paragraph--label">
+              <label>Email:</label>
+              <input type="email" />
+            </div>
+
+            <div class="paragraph paragraph--label">
+              <label>Message:</label>
+              <textarea rows="4" class="message"></textarea>
+            </div>
+          </div>
+
+          <div>
+            <div role="button" class="button">Send us a message!</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="advertisements">
+        <div class="secondary-title">Advertisements</div>
+        <img
+          class="advertisements__image"
+          src="https://images.unsplash.com/photo-1553096442-8fe2118fb927?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+        />
+
+        <img
+          class="advertisements__image"
+          src="https://images.unsplash.com/photo-1553096442-8fe2118fb927?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+        />
+
+        <img
+          class="advertisements__image"
+          src="https://images.unsplash.com/photo-1553096442-8fe2118fb927?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80"
+        />
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>&copy; 2023 by Peter Peterson. All rights reserved.</p>
+    </div>
+  </body>
+</html>
